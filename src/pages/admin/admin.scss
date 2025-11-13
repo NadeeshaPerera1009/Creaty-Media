@@ -1,0 +1,146 @@
+// .navbarContainer{
+//     width: 100%;
+//     height: 100%;
+//     background-color: #4d87a7f1;
+//     display: flex;
+//     align-items: center;
+//     position: sticky;
+//     top: 0;
+//     z-index: 999;
+
+//     .navbarLeft{
+//         flex: 3;
+
+      
+
+//     .logo{
+//         font-size: 24px;
+//         color: white;
+//         margin-left: 20px;
+//         font-weight: 600;
+//         cursor: pointer;
+        
+        
+//             .span{
+//                 color: rgb(216, 22, 22);
+//                 font-family: 'Satisfy', cursive;
+//                 font-weight: bold;
+//             }
+//         }
+        
+//     }
+//     .navbarCenter{
+//         flex: 5;
+//         font-family:pacifico ;
+//         color: white;
+  
+//         }
+//         .navbarImg{
+//             display: flex;
+//             width: 32px;
+//             height: 32px;
+//             border-radius: 50%;
+//             border: 2px solid white;
+//             object-fit: cover;
+//             cursor: pointer;
+//             margin-right: 10px;
+    
+//             &:hover{
+//                 opacity: 0.75;
+//             }
+            
+//         }
+
+//     }
+//     .navbarRight{
+//         flex: 4;
+//         display: flex;
+//         align-items: center;
+//         justify-content: space-around;
+//         color: white;
+
+//         .navbarLink{
+//             margin-left: 20px;
+//             font-size: 14px;
+//             cursor: pointer;
+//         }
+
+//         .navbarIcons{
+//             display: flex;
+//             font-size: 20px;
+//             gap: 10px;
+
+           
+//         }
+
+        
+//     }
+
+
+// //Responsiveness
+
+// @media only screen and (max-width: 992px){
+//     .navbarContainer{
+//         .navbarLeft{
+//             flex: 2;
+//             .logo{
+//                 font-weight: 500;
+                
+//             }
+//         }
+//         .navbarCenter{
+//             flex: 5;
+//             .searchBar{
+//                 width: 95%;
+
+//                 .searchInput{
+//                     width: 70%;
+//                 }
+//             }
+//         }
+       
+
+        
+//     }
+    
+// }
+
+// @media only screen and (max-width: 768px){
+//     .navbarContainer{
+//         .navbarLeft{
+//             flex: 3;
+//         }
+
+//         .navbarRight{
+//             .navbarLink{
+//                 display: none;
+//             } 
+//         }
+//     }
+// }
+// @media only screen and (max-width: 576px){
+//    .navbarContainer{
+//     justify-content: space-between;
+
+//     .navbarLeft{
+//         flex: 1;
+//     }
+//     .navbarCenter{
+//         flex: 1;
+//         display: none;
+//     }
+//     .navbarRight{
+//         flex: 1;
+//     }
+//    }
+// }    
+
+// .tiles {
+//     display: grid;
+//     grid-template-columns: repeat(3, 1fr);
+//     gap: 20px;
+//   }
+
+//   .body{
+//     background-color: rgba(1, 12, 50, 0.558);
+//   }
